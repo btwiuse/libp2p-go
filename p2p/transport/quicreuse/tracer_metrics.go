@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/quic-go/quic-go"
-	"github.com/quic-go/quic-go/logging"
+	"github.com/webtransport/quic-go"
+	"github.com/webtransport/quic-go/logging"
 )
 
 var (

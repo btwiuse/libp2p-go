@@ -15,7 +15,7 @@ import (
 	libp2ptls "github.com/libp2p/go-libp2p/p2p/security/tls"
 
 	ma "github.com/multiformats/go-multiaddr"
-	"github.com/quic-go/quic-go"
+	"github.com/webtransport/quic-go"
 	"github.com/stretchr/testify/require"
 )
 

@@ -6,7 +6,7 @@ import (
 
 	ma "github.com/multiformats/go-multiaddr"
 	manet "github.com/multiformats/go-multiaddr/net"
-	"github.com/quic-go/quic-go"
+	"github.com/webtransport/quic-go"
 )
 
 var (

@@ -4,7 +4,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/quic-go/quic-go"
+	"github.com/webtransport/quic-go"
 )
 
 var quicConfig = &quic.Config{

@@ -33,9 +33,9 @@ import (
 	manet "github.com/multiformats/go-multiaddr/net"
 	"github.com/multiformats/go-multibase"
 	"github.com/multiformats/go-multihash"
-	"github.com/quic-go/quic-go"
-	"github.com/quic-go/quic-go/http3"
-	quicproxy "github.com/quic-go/quic-go/integrationtests/tools/proxy"
+	"github.com/webtransport/quic-go"
+	"github.com/webtransport/quic-go/http3"
+	quicproxy "github.com/webtransport/quic-go/integrationtests/tools/proxy"
 	"github.com/stretchr/testify/require"
 )
 

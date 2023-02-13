@@ -9,7 +9,7 @@ import (
 	tpt "github.com/libp2p/go-libp2p/core/transport"
 
 	ma "github.com/multiformats/go-multiaddr"
-	"github.com/quic-go/quic-go"
+	"github.com/webtransport/quic-go"
 )
 
 type conn struct {

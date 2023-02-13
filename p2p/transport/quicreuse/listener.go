@@ -10,7 +10,7 @@ import (
 	"sync"
 
 	ma "github.com/multiformats/go-multiaddr"
-	"github.com/quic-go/quic-go"
+	"github.com/webtransport/quic-go"
 )
 
 var quicListen = quic.Listen // so we can mock it in tests

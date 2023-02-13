@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	ma "github.com/multiformats/go-multiaddr"
-	"github.com/quic-go/quic-go"
+	"github.com/webtransport/quic-go"
 	"github.com/stretchr/testify/require"
 )
 

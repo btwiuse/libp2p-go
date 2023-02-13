@@ -9,8 +9,8 @@ import (
 
 	ma "github.com/multiformats/go-multiaddr"
 	manet "github.com/multiformats/go-multiaddr/net"
-	"github.com/quic-go/quic-go"
-	quiclogging "github.com/quic-go/quic-go/logging"
+	"github.com/webtransport/quic-go"
+	quiclogging "github.com/webtransport/quic-go/logging"
 )
 
 var quicDialContext = quic.DialContext // so we can mock it in tests

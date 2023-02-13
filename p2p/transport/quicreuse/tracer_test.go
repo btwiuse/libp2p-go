@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"github.com/klauspost/compress/zstd"
-	"github.com/quic-go/quic-go/logging"
+	"github.com/webtransport/quic-go/logging"
 	"github.com/stretchr/testify/require"
 )
 

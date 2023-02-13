@@ -20,7 +20,7 @@ import (
 	ic "github.com/libp2p/go-libp2p/core/crypto"
 
 	"github.com/multiformats/go-multihash"
-	"github.com/quic-go/quic-go/http3"
+	"github.com/webtransport/quic-go/http3"
 )
 
 const deterministicCertInfo = "determinisitic cert"

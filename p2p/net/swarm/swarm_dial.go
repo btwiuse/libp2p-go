@@ -15,7 +15,7 @@ import (
 	ma "github.com/multiformats/go-multiaddr"
 	madns "github.com/multiformats/go-multiaddr-dns"
 	manet "github.com/multiformats/go-multiaddr/net"
-	"github.com/quic-go/quic-go"
+	"github.com/webtransport/quic-go"
 )
 
 // The maximum number of address resolution steps we'll perform for a single

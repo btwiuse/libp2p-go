@@ -43,10 +43,10 @@ require (
 	github.com/multiformats/go-varint v0.0.7
 	github.com/pbnjay/memory v0.0.0-20210728143218-7b4eea64cf58
 	github.com/prometheus/client_golang v1.14.0
-	github.com/quic-go/quic-go v0.32.0
-	github.com/quic-go/webtransport-go v0.5.1
 	github.com/raulk/go-watchdog v1.3.0
 	github.com/stretchr/testify v1.8.1
+	github.com/webtransport/quic-go v0.0.0-webtransport
+	github.com/webtransport/webtransport-go v0.0.0-webtransport
 	go.uber.org/fx v1.18.2
 	go.uber.org/goleak v1.1.12
 	golang.org/x/crypto v0.4.0

@@ -26,9 +26,9 @@ import (
 	ma "github.com/multiformats/go-multiaddr"
 	manet "github.com/multiformats/go-multiaddr/net"
 	"github.com/multiformats/go-multihash"
-	"github.com/quic-go/quic-go"
-	"github.com/quic-go/quic-go/http3"
-	"github.com/quic-go/webtransport-go"
+	"github.com/webtransport/quic-go"
+	"github.com/webtransport/quic-go/http3"
+	"github.com/webtransport/webtransport-go"
 )
 
 var log = logging.Logger("webtransport")

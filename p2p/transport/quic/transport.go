@@ -23,7 +23,7 @@ import (
 	ma "github.com/multiformats/go-multiaddr"
 	mafmt "github.com/multiformats/go-multiaddr-fmt"
 	manet "github.com/multiformats/go-multiaddr/net"
-	"github.com/quic-go/quic-go"
+	"github.com/webtransport/quic-go"
 )
 
 var log = logging.Logger("quic-transport")

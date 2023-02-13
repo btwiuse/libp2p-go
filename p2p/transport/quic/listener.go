@@ -13,7 +13,7 @@ import (
 	"github.com/libp2p/go-libp2p/p2p/transport/quicreuse"
 
 	ma "github.com/multiformats/go-multiaddr"
-	"github.com/quic-go/quic-go"
+	"github.com/webtransport/quic-go"
 )
 
 // A listener listens for QUIC connections.

@@ -22,8 +22,8 @@ import (
 
 	"github.com/golang/mock/gomock"
 	ma "github.com/multiformats/go-multiaddr"
-	"github.com/quic-go/quic-go"
-	quicproxy "github.com/quic-go/quic-go/integrationtests/tools/proxy"
+	"github.com/webtransport/quic-go"
+	quicproxy "github.com/webtransport/quic-go/integrationtests/tools/proxy"
 	"github.com/stretchr/testify/require"
 )
 
