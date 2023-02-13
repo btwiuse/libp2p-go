@@ -3,8 +3,8 @@ package libp2pwebtransport
 import (
 	"context"
 
-	"github.com/libp2p/go-libp2p/core/network"
-	tpt "github.com/libp2p/go-libp2p/core/transport"
+	"github.com/webtransport/libp2p-go/core/network"
+	tpt "github.com/webtransport/libp2p-go/core/transport"
 
 	ma "github.com/multiformats/go-multiaddr"
 	"github.com/webtransport/webtransport-go"

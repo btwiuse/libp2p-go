@@ -1,4 +1,4 @@
-module github.com/libp2p/go-libp2p
+module github.com/webtransport/libp2p-go
 
 go 1.19
 

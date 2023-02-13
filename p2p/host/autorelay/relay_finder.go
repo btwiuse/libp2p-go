@@ -10,14 +10,14 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/libp2p/go-libp2p/core/event"
-	"github.com/libp2p/go-libp2p/core/network"
-	"github.com/libp2p/go-libp2p/core/peer"
-	basic "github.com/libp2p/go-libp2p/p2p/host/basic"
-	"github.com/libp2p/go-libp2p/p2p/host/eventbus"
-	relayv1 "github.com/libp2p/go-libp2p/p2p/protocol/circuitv1/relay"
-	circuitv2 "github.com/libp2p/go-libp2p/p2p/protocol/circuitv2/client"
-	circuitv2_proto "github.com/libp2p/go-libp2p/p2p/protocol/circuitv2/proto"
+	"github.com/webtransport/libp2p-go/core/event"
+	"github.com/webtransport/libp2p-go/core/network"
+	"github.com/webtransport/libp2p-go/core/peer"
+	basic "github.com/webtransport/libp2p-go/p2p/host/basic"
+	"github.com/webtransport/libp2p-go/p2p/host/eventbus"
+	relayv1 "github.com/webtransport/libp2p-go/p2p/protocol/circuitv1/relay"
+	circuitv2 "github.com/webtransport/libp2p-go/p2p/protocol/circuitv2/client"
+	circuitv2_proto "github.com/webtransport/libp2p-go/p2p/protocol/circuitv2/proto"
 
 	ma "github.com/multiformats/go-multiaddr"
 	manet "github.com/multiformats/go-multiaddr/net"

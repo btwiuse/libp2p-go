@@ -4,17 +4,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/libp2p/go-libp2p/core/event"
-	"github.com/libp2p/go-libp2p/core/network"
-	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/libp2p/go-libp2p/p2p/host/eventbus"
-	"github.com/libp2p/go-libp2p/p2p/host/pstoremanager"
+	"github.com/webtransport/libp2p-go/core/event"
+	"github.com/webtransport/libp2p-go/core/network"
+	"github.com/webtransport/libp2p-go/core/peer"
+	"github.com/webtransport/libp2p-go/p2p/host/eventbus"
+	"github.com/webtransport/libp2p-go/p2p/host/pstoremanager"
 
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 )
 
-//go:generate sh -c "go run github.com/golang/mock/mockgen -package pstoremanager_test -destination mock_peerstore_test.go github.com/libp2p/go-libp2p/core/peerstore Peerstore"
+//go:generate sh -c "go run github.com/golang/mock/mockgen -package pstoremanager_test -destination mock_peerstore_test.go github.com/webtransport/libp2p-go/core/peerstore Peerstore"
 
 func TestGracePeriod(t *testing.T) {
 	t.Parallel()

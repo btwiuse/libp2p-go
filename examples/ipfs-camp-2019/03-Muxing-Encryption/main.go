@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/libp2p/go-libp2p"
-	"github.com/libp2p/go-libp2p/p2p/transport/tcp"
-	"github.com/libp2p/go-libp2p/p2p/transport/websocket"
+	"github.com/webtransport/libp2p-go"
+	"github.com/webtransport/libp2p-go/p2p/transport/tcp"
+	"github.com/webtransport/libp2p-go/p2p/transport/websocket"
 
-	"github.com/libp2p/go-libp2p/core/peer"
+	"github.com/webtransport/libp2p-go/core/peer"
 	"github.com/multiformats/go-multiaddr"
 )
 

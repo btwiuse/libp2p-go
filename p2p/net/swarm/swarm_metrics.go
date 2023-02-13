@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/libp2p/go-libp2p/core/crypto"
-	"github.com/libp2p/go-libp2p/core/network"
-	"github.com/libp2p/go-libp2p/p2p/metricshelper"
+	"github.com/webtransport/libp2p-go/core/crypto"
+	"github.com/webtransport/libp2p-go/core/network"
+	"github.com/webtransport/libp2p-go/p2p/metricshelper"
 
 	ma "github.com/multiformats/go-multiaddr"
 

@@ -5,7 +5,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/libp2p/go-libp2p/core/peer"
+	"github.com/webtransport/libp2p-go/core/peer"
 )
 
 // Advertiser is an interface for advertising services

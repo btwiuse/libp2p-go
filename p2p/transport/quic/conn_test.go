@@ -13,12 +13,12 @@ import (
 	"testing"
 	"time"
 
-	ic "github.com/libp2p/go-libp2p/core/crypto"
-	"github.com/libp2p/go-libp2p/core/network"
-	mocknetwork "github.com/libp2p/go-libp2p/core/network/mocks"
-	"github.com/libp2p/go-libp2p/core/peer"
-	tpt "github.com/libp2p/go-libp2p/core/transport"
-	"github.com/libp2p/go-libp2p/p2p/transport/quicreuse"
+	ic "github.com/webtransport/libp2p-go/core/crypto"
+	"github.com/webtransport/libp2p-go/core/network"
+	mocknetwork "github.com/webtransport/libp2p-go/core/network/mocks"
+	"github.com/webtransport/libp2p-go/core/peer"
+	tpt "github.com/webtransport/libp2p-go/core/transport"
+	"github.com/webtransport/libp2p-go/p2p/transport/quicreuse"
 
 	"github.com/golang/mock/gomock"
 	ma "github.com/multiformats/go-multiaddr"
@@ -27,7 +27,7 @@ import (
 	"github.com/stretchr/testify/require"
 )
 
-//go:generate sh -c "go run github.com/golang/mock/mockgen -package libp2pquic -destination mock_connection_gater_test.go github.com/libp2p/go-libp2p/core/connmgr ConnectionGater && go run golang.org/x/tools/cmd/goimports -w mock_connection_gater_test.go"
+//go:generate sh -c "go run github.com/golang/mock/mockgen -package libp2pquic -destination mock_connection_gater_test.go github.com/webtransport/libp2p-go/core/connmgr ConnectionGater && go run golang.org/x/tools/cmd/goimports -w mock_connection_gater_test.go"
 
 type connTestCase struct {
 	Name    string

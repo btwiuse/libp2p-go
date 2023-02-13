@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/libp2p/go-libp2p/core/host"
-	"github.com/libp2p/go-libp2p/core/peer"
-	bhost "github.com/libp2p/go-libp2p/p2p/host/blank"
-	swarmt "github.com/libp2p/go-libp2p/p2p/net/swarm/testing"
+	"github.com/webtransport/libp2p-go/core/host"
+	"github.com/webtransport/libp2p-go/core/peer"
+	bhost "github.com/webtransport/libp2p-go/p2p/host/blank"
+	swarmt "github.com/webtransport/libp2p-go/p2p/net/swarm/testing"
 
 	"github.com/stretchr/testify/require"
 )

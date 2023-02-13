@@ -1,10 +1,10 @@
-module github.com/libp2p/go-libp2p/examples/pubsub/chat
+module github.com/webtransport/libp2p-go/examples/pubsub/chat
 
 go 1.19
 
 require (
 	github.com/gdamore/tcell/v2 v2.5.2
-	github.com/libp2p/go-libp2p v0.25.1
+	github.com/webtransport/libp2p-go v0.0.0-webtransport
 	github.com/libp2p/go-libp2p-pubsub v0.9.0
 	github.com/rivo/tview v0.0.0-20220307222120-9994674d60a8
 )
@@ -107,3 +107,5 @@ require (
 	lukechampine.com/blake3 v1.1.7 // indirect
 	nhooyr.io/websocket v1.8.7 // indirect
 )
+
+replace github.com/webtransport/libp2p-go => ../../../

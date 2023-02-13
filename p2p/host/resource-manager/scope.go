@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/libp2p/go-libp2p/core/network"
+	"github.com/webtransport/libp2p-go/core/network"
 )
 
 // resources tracks the current state of resource consumption

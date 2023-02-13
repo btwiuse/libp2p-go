@@ -5,15 +5,15 @@ import (
 	"log"
 	"time"
 
-	"github.com/libp2p/go-libp2p/p2p/net/connmgr"
+	"github.com/webtransport/libp2p-go/p2p/net/connmgr"
 
-	"github.com/libp2p/go-libp2p"
+	"github.com/webtransport/libp2p-go"
 	dht "github.com/libp2p/go-libp2p-kad-dht"
-	"github.com/libp2p/go-libp2p/core/crypto"
-	"github.com/libp2p/go-libp2p/core/host"
-	"github.com/libp2p/go-libp2p/core/routing"
-	"github.com/libp2p/go-libp2p/p2p/security/noise"
-	libp2ptls "github.com/libp2p/go-libp2p/p2p/security/tls"
+	"github.com/webtransport/libp2p-go/core/crypto"
+	"github.com/webtransport/libp2p-go/core/host"
+	"github.com/webtransport/libp2p-go/core/routing"
+	"github.com/webtransport/libp2p-go/p2p/security/noise"
+	libp2ptls "github.com/webtransport/libp2p-go/p2p/security/tls"
 )
 
 func main() {

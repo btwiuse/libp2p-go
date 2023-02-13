@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/libp2p/go-libp2p/core/crypto"
-	. "github.com/libp2p/go-libp2p/core/peer"
-	"github.com/libp2p/go-libp2p/core/record"
-	"github.com/libp2p/go-libp2p/core/test"
+	"github.com/webtransport/libp2p-go/core/crypto"
+	. "github.com/webtransport/libp2p-go/core/peer"
+	"github.com/webtransport/libp2p-go/core/record"
+	"github.com/webtransport/libp2p-go/core/test"
 )
 
 func TestPeerRecordConstants(t *testing.T) {

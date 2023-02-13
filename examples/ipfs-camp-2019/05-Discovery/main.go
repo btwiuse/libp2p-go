@@ -7,13 +7,13 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/libp2p/go-libp2p"
-	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/libp2p/go-libp2p/p2p/muxer/mplex"
-	"github.com/libp2p/go-libp2p/p2p/muxer/yamux"
-	tls "github.com/libp2p/go-libp2p/p2p/security/tls"
-	"github.com/libp2p/go-libp2p/p2p/transport/tcp"
-	"github.com/libp2p/go-libp2p/p2p/transport/websocket"
+	"github.com/webtransport/libp2p-go"
+	"github.com/webtransport/libp2p-go/core/peer"
+	"github.com/webtransport/libp2p-go/p2p/muxer/mplex"
+	"github.com/webtransport/libp2p-go/p2p/muxer/yamux"
+	tls "github.com/webtransport/libp2p-go/p2p/security/tls"
+	"github.com/webtransport/libp2p-go/p2p/transport/tcp"
+	"github.com/webtransport/libp2p-go/p2p/transport/websocket"
 
 	"github.com/multiformats/go-multiaddr"
 )

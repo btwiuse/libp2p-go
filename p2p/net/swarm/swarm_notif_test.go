@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/libp2p/go-libp2p/core/network"
-	"github.com/libp2p/go-libp2p/core/peer"
-	. "github.com/libp2p/go-libp2p/p2p/net/swarm"
+	"github.com/webtransport/libp2p-go/core/network"
+	"github.com/webtransport/libp2p-go/core/peer"
+	. "github.com/webtransport/libp2p-go/p2p/net/swarm"
 
 	ma "github.com/multiformats/go-multiaddr"
 

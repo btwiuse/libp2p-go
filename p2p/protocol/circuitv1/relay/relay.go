@@ -8,11 +8,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/libp2p/go-libp2p/core/host"
-	"github.com/libp2p/go-libp2p/core/network"
-	"github.com/libp2p/go-libp2p/core/peer"
-	pb "github.com/libp2p/go-libp2p/p2p/protocol/circuitv1/pb"
-	"github.com/libp2p/go-libp2p/p2p/protocol/circuitv2/util"
+	"github.com/webtransport/libp2p-go/core/host"
+	"github.com/webtransport/libp2p-go/core/network"
+	"github.com/webtransport/libp2p-go/core/peer"
+	pb "github.com/webtransport/libp2p-go/p2p/protocol/circuitv1/pb"
+	"github.com/webtransport/libp2p-go/p2p/protocol/circuitv2/util"
 
 	logging "github.com/ipfs/go-log/v2"
 	pool "github.com/libp2p/go-buffer-pool"

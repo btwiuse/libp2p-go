@@ -1,10 +1,10 @@
 package libp2p
 
 import (
-	"github.com/libp2p/go-libp2p/core/connmgr"
-	"github.com/libp2p/go-libp2p/core/control"
-	"github.com/libp2p/go-libp2p/core/network"
-	"github.com/libp2p/go-libp2p/core/peer"
+	"github.com/webtransport/libp2p-go/core/connmgr"
+	"github.com/webtransport/libp2p-go/core/control"
+	"github.com/webtransport/libp2p-go/core/network"
+	"github.com/webtransport/libp2p-go/core/peer"
 
 	ma "github.com/multiformats/go-multiaddr"
 )

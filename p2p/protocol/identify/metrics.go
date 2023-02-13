@@ -3,9 +3,9 @@ package identify
 import (
 	"sync"
 
-	"github.com/libp2p/go-libp2p/core/event"
-	"github.com/libp2p/go-libp2p/core/network"
-	"github.com/libp2p/go-libp2p/p2p/metricshelper"
+	"github.com/webtransport/libp2p-go/core/event"
+	"github.com/webtransport/libp2p-go/core/network"
+	"github.com/webtransport/libp2p-go/p2p/metricshelper"
 
 	"github.com/prometheus/client_golang/prometheus"
 )

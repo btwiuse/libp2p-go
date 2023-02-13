@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/libp2p/go-libp2p/core/crypto"
-	"github.com/libp2p/go-libp2p/core/peer"
-	pstore "github.com/libp2p/go-libp2p/core/peerstore"
-	"github.com/libp2p/go-libp2p/core/protocol"
+	"github.com/webtransport/libp2p-go/core/crypto"
+	"github.com/webtransport/libp2p-go/core/peer"
+	pstore "github.com/webtransport/libp2p-go/core/peerstore"
+	"github.com/webtransport/libp2p-go/core/protocol"
 
 	ma "github.com/multiformats/go-multiaddr"
 	"github.com/stretchr/testify/require"

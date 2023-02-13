@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/libp2p/go-libp2p/core/peer"
-	bhost "github.com/libp2p/go-libp2p/p2p/host/basic"
-	swarmt "github.com/libp2p/go-libp2p/p2p/net/swarm/testing"
-	"github.com/libp2p/go-libp2p/p2p/protocol/ping"
+	"github.com/webtransport/libp2p-go/core/peer"
+	bhost "github.com/webtransport/libp2p-go/p2p/host/basic"
+	swarmt "github.com/webtransport/libp2p-go/p2p/net/swarm/testing"
+	"github.com/webtransport/libp2p-go/p2p/protocol/ping"
 
 	ma "github.com/multiformats/go-multiaddr"
 	"github.com/stretchr/testify/require"

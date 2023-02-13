@@ -5,7 +5,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/libp2p/go-libp2p/p2p/metricshelper"
+	"github.com/webtransport/libp2p-go/p2p/metricshelper"
 
 	"github.com/prometheus/client_golang/prometheus"
 )

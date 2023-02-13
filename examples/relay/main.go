@@ -4,13 +4,13 @@ import (
 	"context"
 	"log"
 
-	"github.com/libp2p/go-libp2p"
-	"github.com/libp2p/go-libp2p/p2p/net/swarm"
-	"github.com/libp2p/go-libp2p/p2p/protocol/circuitv2/client"
-	"github.com/libp2p/go-libp2p/p2p/protocol/circuitv2/relay"
+	"github.com/webtransport/libp2p-go"
+	"github.com/webtransport/libp2p-go/p2p/net/swarm"
+	"github.com/webtransport/libp2p-go/p2p/protocol/circuitv2/client"
+	"github.com/webtransport/libp2p-go/p2p/protocol/circuitv2/relay"
 
-	"github.com/libp2p/go-libp2p/core/network"
-	"github.com/libp2p/go-libp2p/core/peer"
+	"github.com/webtransport/libp2p-go/core/network"
+	"github.com/webtransport/libp2p-go/core/peer"
 
 	ma "github.com/multiformats/go-multiaddr"
 )

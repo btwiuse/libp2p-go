@@ -1,11 +1,11 @@
-module github.com/libp2p/go-libp2p/test-plans/m/v2
+module github.com/webtransport/libp2p-go/test-plans/m/v2
 
 go 1.19
 
 require (
 	github.com/go-redis/redis/v8 v8.11.5
-	github.com/libp2p/go-libp2p v0.0.0
 	github.com/multiformats/go-multiaddr v0.8.0
+	github.com/webtransport/libp2p-go v0.0.0-webtransport
 )
 
 require (
@@ -98,4 +98,4 @@ require (
 	nhooyr.io/websocket v1.8.7 // indirect
 )
 
-replace github.com/libp2p/go-libp2p => ../
+replace github.com/webtransport/libp2p-go => ../

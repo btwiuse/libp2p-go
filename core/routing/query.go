@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/libp2p/go-libp2p/core/peer"
+	"github.com/webtransport/libp2p-go/core/peer"
 )
 
 // QueryEventType indicates the query event's type.

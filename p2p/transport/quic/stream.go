@@ -3,7 +3,7 @@ package libp2pquic
 import (
 	"errors"
 
-	"github.com/libp2p/go-libp2p/core/network"
+	"github.com/webtransport/libp2p-go/core/network"
 
 	"github.com/webtransport/quic-go"
 )

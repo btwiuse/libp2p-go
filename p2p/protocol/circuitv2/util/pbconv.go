@@ -3,9 +3,9 @@ package util
 import (
 	"errors"
 
-	"github.com/libp2p/go-libp2p/core/peer"
-	pbv1 "github.com/libp2p/go-libp2p/p2p/protocol/circuitv1/pb"
-	pbv2 "github.com/libp2p/go-libp2p/p2p/protocol/circuitv2/pb"
+	"github.com/webtransport/libp2p-go/core/peer"
+	pbv1 "github.com/webtransport/libp2p-go/p2p/protocol/circuitv1/pb"
+	pbv2 "github.com/webtransport/libp2p-go/p2p/protocol/circuitv2/pb"
 
 	ma "github.com/multiformats/go-multiaddr"
 )

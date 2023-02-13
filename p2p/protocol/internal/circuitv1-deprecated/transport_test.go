@@ -9,13 +9,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/libp2p/go-libp2p/p2p/net/swarm"
-	swarmt "github.com/libp2p/go-libp2p/p2p/net/swarm/testing"
-	. "github.com/libp2p/go-libp2p/p2p/protocol/internal/circuitv1-deprecated"
+	"github.com/webtransport/libp2p-go/p2p/net/swarm"
+	swarmt "github.com/webtransport/libp2p-go/p2p/net/swarm/testing"
+	. "github.com/webtransport/libp2p-go/p2p/protocol/internal/circuitv1-deprecated"
 
-	"github.com/libp2p/go-libp2p/core/host"
-	"github.com/libp2p/go-libp2p/core/network"
-	"github.com/libp2p/go-libp2p/core/peerstore"
+	"github.com/webtransport/libp2p-go/core/host"
+	"github.com/webtransport/libp2p-go/core/network"
+	"github.com/webtransport/libp2p-go/core/peerstore"
 
 	ma "github.com/multiformats/go-multiaddr"
 )

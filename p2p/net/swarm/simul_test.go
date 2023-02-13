@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/libp2p/go-libp2p/core/peerstore"
-	. "github.com/libp2p/go-libp2p/p2p/net/swarm"
-	swarmt "github.com/libp2p/go-libp2p/p2p/net/swarm/testing"
+	"github.com/webtransport/libp2p-go/core/peer"
+	"github.com/webtransport/libp2p-go/core/peerstore"
+	. "github.com/webtransport/libp2p-go/p2p/net/swarm"
+	swarmt "github.com/webtransport/libp2p-go/p2p/net/swarm/testing"
 
 	"github.com/libp2p/go-libp2p-testing/ci"
 	ma "github.com/multiformats/go-multiaddr"

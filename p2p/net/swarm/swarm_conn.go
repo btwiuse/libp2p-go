@@ -8,10 +8,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	ic "github.com/libp2p/go-libp2p/core/crypto"
-	"github.com/libp2p/go-libp2p/core/network"
-	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/libp2p/go-libp2p/core/transport"
+	ic "github.com/webtransport/libp2p-go/core/crypto"
+	"github.com/webtransport/libp2p-go/core/network"
+	"github.com/webtransport/libp2p-go/core/peer"
+	"github.com/webtransport/libp2p-go/core/transport"
 
 	ma "github.com/multiformats/go-multiaddr"
 )

@@ -4,10 +4,10 @@ import (
 	"sort"
 	"testing"
 
-	ic "github.com/libp2p/go-libp2p/core/crypto"
-	"github.com/libp2p/go-libp2p/core/peer"
-	pstore "github.com/libp2p/go-libp2p/core/peerstore"
-	pt "github.com/libp2p/go-libp2p/core/test"
+	ic "github.com/webtransport/libp2p-go/core/crypto"
+	"github.com/webtransport/libp2p-go/core/peer"
+	pstore "github.com/webtransport/libp2p-go/core/peerstore"
+	pt "github.com/webtransport/libp2p-go/core/test"
 
 	"github.com/stretchr/testify/require"
 )

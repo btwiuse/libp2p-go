@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/libp2p/go-libp2p"
-	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/libp2p/go-libp2p/core/peerstore"
-	"github.com/libp2p/go-libp2p/p2p/transport/tcp"
+	"github.com/webtransport/libp2p-go"
+	"github.com/webtransport/libp2p-go/core/peer"
+	"github.com/webtransport/libp2p-go/core/peerstore"
+	"github.com/webtransport/libp2p-go/p2p/transport/tcp"
 
 	"github.com/stretchr/testify/require"
 )

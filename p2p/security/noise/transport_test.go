@@ -13,11 +13,11 @@ import (
 
 	"golang.org/x/crypto/chacha20poly1305"
 
-	"github.com/libp2p/go-libp2p/core/crypto"
-	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/libp2p/go-libp2p/core/protocol"
-	"github.com/libp2p/go-libp2p/core/sec"
-	"github.com/libp2p/go-libp2p/p2p/security/noise/pb"
+	"github.com/webtransport/libp2p-go/core/crypto"
+	"github.com/webtransport/libp2p-go/core/peer"
+	"github.com/webtransport/libp2p-go/core/protocol"
+	"github.com/webtransport/libp2p-go/core/sec"
+	"github.com/webtransport/libp2p-go/p2p/security/noise/pb"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

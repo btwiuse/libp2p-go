@@ -3,10 +3,10 @@ package client
 import (
 	"time"
 
-	"github.com/libp2p/go-libp2p/core/network"
-	pbv1 "github.com/libp2p/go-libp2p/p2p/protocol/circuitv1/pb"
-	pbv2 "github.com/libp2p/go-libp2p/p2p/protocol/circuitv2/pb"
-	"github.com/libp2p/go-libp2p/p2p/protocol/circuitv2/util"
+	"github.com/webtransport/libp2p-go/core/network"
+	pbv1 "github.com/webtransport/libp2p-go/p2p/protocol/circuitv1/pb"
+	pbv2 "github.com/webtransport/libp2p-go/p2p/protocol/circuitv2/pb"
+	"github.com/webtransport/libp2p-go/p2p/protocol/circuitv2/util"
 )
 
 var (

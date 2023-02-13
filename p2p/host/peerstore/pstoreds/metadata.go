@@ -6,9 +6,9 @@ import (
 	"encoding/gob"
 
 	pool "github.com/libp2p/go-buffer-pool"
-	"github.com/libp2p/go-libp2p/core/peer"
-	pstore "github.com/libp2p/go-libp2p/core/peerstore"
-	"github.com/libp2p/go-libp2p/core/protocol"
+	"github.com/webtransport/libp2p-go/core/peer"
+	pstore "github.com/webtransport/libp2p-go/core/peerstore"
+	"github.com/webtransport/libp2p-go/core/protocol"
 
 	ds "github.com/ipfs/go-datastore"
 	"github.com/ipfs/go-datastore/query"

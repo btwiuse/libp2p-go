@@ -39,7 +39,7 @@ To learn more, check out the following resources:
 
 ## Roadmap
 
-Our roadmap for go-libp2p can be found here: https://github.com/libp2p/go-libp2p/blob/master/ROADMAP.md
+Our roadmap for go-libp2p can be found here: https://github.com/webtransport/libp2p-go/blob/master/ROADMAP.md
 This document represents current projects the go-libp2p team is focused on and provides an estimation of completion targets. It is a completementary roadmap to the overarching libp2p project roadmap: https://github.com/libp2p/specs/blob/master/ROADMAP.md
 
 ## Usage
@@ -49,7 +49,7 @@ This repository (`go-libp2p`) serves as the entrypoint to the universe of packag
 You can start using go-libp2p in your Go application simply by adding imports from our repos, e.g.:
 
 ```go
-import "github.com/libp2p/go-libp2p"
+import "github.com/webtransport/libp2p-go"
 ```
 
 ### Examples
@@ -69,7 +69,7 @@ go-libp2p is part of [The IPFS Project](https://github.com/ipfs/ipfs), and is MI
 Guidelines:
 
 - read the [libp2p spec](https://github.com/libp2p/specs)
-- ask questions or talk about things in  our [discussion forums](https://discuss.libp2p.io), or open an [issue](https://github.com/libp2p/go-libp2p/issues) for bug reports, or #libp2p on freenode.
+- ask questions or talk about things in  our [discussion forums](https://discuss.libp2p.io), or open an [issue](https://github.com/webtransport/libp2p-go/issues) for bug reports, or #libp2p on freenode.
 - ensure you are able to contribute (no legal issues please -- we use the DCO)
 - get in touch with @marten-seemann about how best to contribute
 - have fun!

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"io"
 
-	pb "github.com/libp2p/go-libp2p/core/crypto/pb"
-	"github.com/libp2p/go-libp2p/core/internal/catch"
+	pb "github.com/webtransport/libp2p-go/core/crypto/pb"
+	"github.com/webtransport/libp2p-go/core/internal/catch"
 
 	"github.com/decred/dcrd/dcrec/secp256k1/v4"
 	"github.com/decred/dcrd/dcrec/secp256k1/v4/ecdsa"

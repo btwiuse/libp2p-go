@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/libp2p/go-libp2p/core/network"
-	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/libp2p/go-libp2p/core/peerstore"
-	pbv1 "github.com/libp2p/go-libp2p/p2p/protocol/circuitv1/pb"
-	pbv2 "github.com/libp2p/go-libp2p/p2p/protocol/circuitv2/pb"
-	"github.com/libp2p/go-libp2p/p2p/protocol/circuitv2/proto"
-	"github.com/libp2p/go-libp2p/p2p/protocol/circuitv2/util"
+	"github.com/webtransport/libp2p-go/core/network"
+	"github.com/webtransport/libp2p-go/core/peer"
+	"github.com/webtransport/libp2p-go/core/peerstore"
+	pbv1 "github.com/webtransport/libp2p-go/p2p/protocol/circuitv1/pb"
+	pbv2 "github.com/webtransport/libp2p-go/p2p/protocol/circuitv2/pb"
+	"github.com/webtransport/libp2p-go/p2p/protocol/circuitv2/proto"
+	"github.com/webtransport/libp2p-go/p2p/protocol/circuitv2/util"
 
 	ma "github.com/multiformats/go-multiaddr"
 )

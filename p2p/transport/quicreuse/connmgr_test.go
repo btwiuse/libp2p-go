@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/libp2p/go-libp2p/core/crypto"
-	"github.com/libp2p/go-libp2p/core/peer"
-	libp2ptls "github.com/libp2p/go-libp2p/p2p/security/tls"
+	"github.com/webtransport/libp2p-go/core/crypto"
+	"github.com/webtransport/libp2p-go/core/peer"
+	libp2ptls "github.com/webtransport/libp2p-go/p2p/security/tls"
 
 	ma "github.com/multiformats/go-multiaddr"
 	"github.com/webtransport/quic-go"

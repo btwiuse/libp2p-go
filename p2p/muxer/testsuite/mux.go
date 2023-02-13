@@ -17,8 +17,8 @@ import (
 	"time"
 
 	"github.com/libp2p/go-libp2p-testing/ci"
-	"github.com/libp2p/go-libp2p/core/network"
-	"github.com/libp2p/go-libp2p/core/peer"
+	"github.com/webtransport/libp2p-go/core/network"
+	"github.com/webtransport/libp2p-go/core/peer"
 
 	"github.com/stretchr/testify/require"
 )

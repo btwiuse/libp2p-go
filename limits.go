@@ -1,15 +1,15 @@
 package libp2p
 
 import (
-	"github.com/libp2p/go-libp2p/core/protocol"
-	"github.com/libp2p/go-libp2p/p2p/host/autonat"
-	rcmgr "github.com/libp2p/go-libp2p/p2p/host/resource-manager"
-	relayv1 "github.com/libp2p/go-libp2p/p2p/protocol/circuitv1/relay"
-	circuit "github.com/libp2p/go-libp2p/p2p/protocol/circuitv2/proto"
-	relayv2 "github.com/libp2p/go-libp2p/p2p/protocol/circuitv2/relay"
-	"github.com/libp2p/go-libp2p/p2p/protocol/holepunch"
-	"github.com/libp2p/go-libp2p/p2p/protocol/identify"
-	"github.com/libp2p/go-libp2p/p2p/protocol/ping"
+	"github.com/webtransport/libp2p-go/core/protocol"
+	"github.com/webtransport/libp2p-go/p2p/host/autonat"
+	rcmgr "github.com/webtransport/libp2p-go/p2p/host/resource-manager"
+	relayv1 "github.com/webtransport/libp2p-go/p2p/protocol/circuitv1/relay"
+	circuit "github.com/webtransport/libp2p-go/p2p/protocol/circuitv2/proto"
+	relayv2 "github.com/webtransport/libp2p-go/p2p/protocol/circuitv2/relay"
+	"github.com/webtransport/libp2p-go/p2p/protocol/holepunch"
+	"github.com/webtransport/libp2p-go/p2p/protocol/identify"
+	"github.com/webtransport/libp2p-go/p2p/protocol/ping"
 )
 
 // SetDefaultServiceLimits sets the default limits for bundled libp2p services

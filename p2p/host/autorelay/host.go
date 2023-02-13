@@ -1,7 +1,7 @@
 package autorelay
 
 import (
-	"github.com/libp2p/go-libp2p/core/host"
+	"github.com/webtransport/libp2p-go/core/host"
 )
 
 type AutoRelayHost struct {

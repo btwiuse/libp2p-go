@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/libp2p/go-libp2p/core/host"
-	"github.com/libp2p/go-libp2p/core/peer"
+	"github.com/webtransport/libp2p-go/core/host"
+	"github.com/webtransport/libp2p-go/core/peer"
 
-	"github.com/libp2p/go-libp2p/p2p/discovery/mdns"
+	"github.com/webtransport/libp2p-go/p2p/discovery/mdns"
 )
 
 type discoveryNotifee struct {

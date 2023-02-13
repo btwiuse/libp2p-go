@@ -11,8 +11,8 @@ metrics with a Prometheus Registerer. For example:
 ``` go
 import (
     // ...
-	rcmgr "github.com/libp2p/go-libp2p/p2p/host/resource-manager"
-	rcmgrObs "github.com/libp2p/go-libp2p/p2p/host/resource-manager/obs"
+	rcmgr "github.com/webtransport/libp2p-go/p2p/host/resource-manager"
+	rcmgrObs "github.com/webtransport/libp2p-go/p2p/host/resource-manager/obs"
 
 	"github.com/prometheus/client_golang/prometheus"
 )

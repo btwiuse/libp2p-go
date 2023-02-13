@@ -7,24 +7,24 @@ import (
 	"testing"
 	"time"
 
-	"github.com/libp2p/go-libp2p"
-	ic "github.com/libp2p/go-libp2p/core/crypto"
-	"github.com/libp2p/go-libp2p/core/event"
-	"github.com/libp2p/go-libp2p/core/host"
-	"github.com/libp2p/go-libp2p/core/network"
-	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/libp2p/go-libp2p/core/peerstore"
-	"github.com/libp2p/go-libp2p/core/protocol"
-	"github.com/libp2p/go-libp2p/core/record"
-	coretest "github.com/libp2p/go-libp2p/core/test"
-	blhost "github.com/libp2p/go-libp2p/p2p/host/blank"
-	"github.com/libp2p/go-libp2p/p2p/host/eventbus"
-	"github.com/libp2p/go-libp2p/p2p/host/peerstore/pstoremem"
-	mocknet "github.com/libp2p/go-libp2p/p2p/net/mock"
-	"github.com/libp2p/go-libp2p/p2p/net/swarm"
-	swarmt "github.com/libp2p/go-libp2p/p2p/net/swarm/testing"
-	"github.com/libp2p/go-libp2p/p2p/protocol/identify"
-	"github.com/libp2p/go-libp2p/p2p/protocol/identify/pb"
+	"github.com/webtransport/libp2p-go"
+	ic "github.com/webtransport/libp2p-go/core/crypto"
+	"github.com/webtransport/libp2p-go/core/event"
+	"github.com/webtransport/libp2p-go/core/host"
+	"github.com/webtransport/libp2p-go/core/network"
+	"github.com/webtransport/libp2p-go/core/peer"
+	"github.com/webtransport/libp2p-go/core/peerstore"
+	"github.com/webtransport/libp2p-go/core/protocol"
+	"github.com/webtransport/libp2p-go/core/record"
+	coretest "github.com/webtransport/libp2p-go/core/test"
+	blhost "github.com/webtransport/libp2p-go/p2p/host/blank"
+	"github.com/webtransport/libp2p-go/p2p/host/eventbus"
+	"github.com/webtransport/libp2p-go/p2p/host/peerstore/pstoremem"
+	mocknet "github.com/webtransport/libp2p-go/p2p/net/mock"
+	"github.com/webtransport/libp2p-go/p2p/net/swarm"
+	swarmt "github.com/webtransport/libp2p-go/p2p/net/swarm/testing"
+	"github.com/webtransport/libp2p-go/p2p/protocol/identify"
+	"github.com/webtransport/libp2p-go/p2p/protocol/identify/pb"
 
 	mockClock "github.com/benbjohnson/clock"
 	logging "github.com/ipfs/go-log/v2"
@@ -77,7 +77,7 @@ func testHasProtocolVersions(t *testing.T, h host.Host, p peer.ID) {
 		t.Error("protocol mismatch", err)
 	}
 	v, err = h.Peerstore().Get(p, "AgentVersion")
-	if v.(string) != "github.com/libp2p/go-libp2p" { // this is the default user agent
+	if v.(string) != "github.com/webtransport/libp2p-go" { // this is the default user agent
 		t.Error("agent version mismatch", err)
 	}
 }
@@ -547,7 +547,7 @@ func TestUserAgent(t *testing.T) {
 func TestNotListening(t *testing.T) {
 	// Make sure we don't panic if we're not listening on any addresses.
 	//
-	// https://github.com/libp2p/go-libp2p/issues/939
+	// https://github.com/webtransport/libp2p-go/issues/939
 	ctx, cancel := context.WithCancel(context.Background())
 	defer cancel()
 

@@ -10,9 +10,9 @@ import (
 	"runtime/debug"
 	"time"
 
-	"github.com/libp2p/go-libp2p/core/crypto"
-	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/libp2p/go-libp2p/p2p/security/noise/pb"
+	"github.com/webtransport/libp2p-go/core/crypto"
+	"github.com/webtransport/libp2p-go/core/peer"
+	"github.com/webtransport/libp2p-go/p2p/security/noise/pb"
 
 	"github.com/flynn/noise"
 	pool "github.com/libp2p/go-buffer-pool"

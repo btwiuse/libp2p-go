@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/libp2p/go-libp2p/core/network"
+	"github.com/webtransport/libp2p-go/core/network"
 
-	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/libp2p/go-libp2p/core/transport"
+	"github.com/webtransport/libp2p-go/core/peer"
+	"github.com/webtransport/libp2p-go/core/transport"
 	ma "github.com/multiformats/go-multiaddr"
 )
 

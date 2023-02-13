@@ -9,11 +9,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/libp2p/go-libp2p"
-	"github.com/libp2p/go-libp2p/core/network"
-	"github.com/libp2p/go-libp2p/core/peer"
-	rcmgr "github.com/libp2p/go-libp2p/p2p/host/resource-manager"
-	rcmgrObs "github.com/libp2p/go-libp2p/p2p/host/resource-manager/obs"
+	"github.com/webtransport/libp2p-go"
+	"github.com/webtransport/libp2p-go/core/network"
+	"github.com/webtransport/libp2p-go/core/peer"
+	rcmgr "github.com/webtransport/libp2p-go/p2p/host/resource-manager"
+	rcmgrObs "github.com/webtransport/libp2p-go/p2p/host/resource-manager/obs"
 
 	"github.com/stretchr/testify/require"
 )

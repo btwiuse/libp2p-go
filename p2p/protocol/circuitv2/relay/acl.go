@@ -1,7 +1,7 @@
 package relay
 
 import (
-	"github.com/libp2p/go-libp2p/core/peer"
+	"github.com/webtransport/libp2p-go/core/peer"
 
 	ma "github.com/multiformats/go-multiaddr"
 )
